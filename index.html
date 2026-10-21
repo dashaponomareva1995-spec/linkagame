@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#181530"><meta name="robots" content="noindex,nofollow"><title>Лина, с днём рождения!</title><link rel="stylesheet" href="style.css"><script defer src="data.js"></script><script defer src="index.js"></script></head>
+<body>
+<div class="universe" aria-hidden="true"><div class="stars"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="sky-moon"></div><span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">✦</span><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div></div>
+<header><button id="home" class="brand" aria-label="К началу поздравления"><span>☾</span> ЛУННАЯ ПОЧТА <small>ДЛЯ ЛИНЫ</small></button><div class="toolbar"><button id="musicButton" class="tool" aria-pressed="false">♫ Музыка</button><button id="navButton" class="tool" aria-label="Выбрать экран игры">☷</button></div></header>
+<main id="app"></main><footer>21 октября <span>✦</span> С Луны — с любовью</footer>
+<p id="audioStatus" class="audio-status" role="status"></p>
+<button id="envelope" class="envelope" hidden aria-label="Не открывай: конверт-сюрприз"><span class="letter" aria-hidden="true">♡</span><span>не открывай</span></button>
+<dialog id="photoDialog" class="photo-dialog"><div class="dialog-head"><p>Ну просили же не открывать…</p><button class="tool close" aria-label="Закрыть">✕</button></div><div id="surprisePhoto"></div><p id="photoCaption" class="photo-caption"></p></dialog>
+<dialog id="navDialog"><div class="dialog-head"><h2>Лунный маршрут</h2><button class="tool close" aria-label="Закрыть">✕</button></div><p class="muted">Можно сразу перейти к любому заданию.</p><div id="navGrid"></div></dialog>
+<audio id="music" loop preload="metadata"></audio>
+</body></html>
